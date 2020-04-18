@@ -1,0 +1,65 @@
+https://www.youtube.com/watch?v=J_Clau1bYco
+Aded a new line as feature to check the git branch
+$ git config --global user.email "aliasparackal@gmail.com"
+$ git config -- global user.name "aliaspk"
+$ git config --list
+git merge
+git branch
+gt branch feature
+git checkout feature
+git commit -am "done with feature branch"
+git branch master
+git merge feature
+
+pushing a branch
+git push --set-upstream origin feature
+
+Initialization of a new repositiry
+	mkdir <repo_dir>
+	cd <repo_dir>
+	echo "# project0" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/aliaspk/project0.git
+	notepad index.html
+		->save and exit
+	git add index.html
+	git commit -m "added index.html"
+	git push
+
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+credential.helper=manager
+user.name=aliaspk
+user.email=aliasparackal@gmail.com
+credential.helper=manager
+
+aliaspk@user-PC MINGW64 /c/git
+$
+
+
+Git clone 
+	C:\Home\apk\Git>git clone https://github.com/aliaspk/Elias.git
+	Cloning into 'Elias'...
+	remote: Enumerating objects: 9, done.
+	remote: Counting objects: 100% (9/9), done.
+	remote: Compressing objects: 100% (7/7), done.
+	remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+	Receiving objects: 100% (9/9), done.
+	
+git add <filename>
+git commit -m "meesage"
+git status
+git push
+git pull
+
+
